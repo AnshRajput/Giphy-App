@@ -1,0 +1,12 @@
+com.example.giphyapp-jetified-window-java-1.0.0-beta04-0 /Users/ansh/.gradle/caches/transforms-3/006d93cd422dbc43e89591147c2de572/transformed/jetified-window-java-1.0.0-beta04/res
+com.example.giphyapp-core-1.6.0-1 /Users/ansh/.gradle/caches/transforms-3/4ca28c4a71705f8a687c69dda140a277/transformed/core-1.6.0/res
+com.example.giphyapp-jetified-annotation-experimental-1.1.0-2 /Users/ansh/.gradle/caches/transforms-3/8965c941cf4bee4d72541b965c7c9d39/transformed/jetified-annotation-experimental-1.1.0/res
+com.example.giphyapp-jetified-window-1.0.0-beta04-3 /Users/ansh/.gradle/caches/transforms-3/dee59bb480020f42d53c2ea15e4501f7/transformed/jetified-window-1.0.0-beta04/res
+com.example.giphyapp-debug-4 /Users/ansh/AnshProjects/Giphy-App/android/app/src/debug/res
+com.example.giphyapp-main-5 /Users/ansh/AnshProjects/Giphy-App/android/app/src/main/res
+com.example.giphyapp-pngs-6 /Users/ansh/AnshProjects/Giphy-App/build/app/generated/res/pngs/debug
+com.example.giphyapp-resValues-7 /Users/ansh/AnshProjects/Giphy-App/build/app/generated/res/resValues/debug
+com.example.giphyapp-rs-8 /Users/ansh/AnshProjects/Giphy-App/build/app/generated/res/rs/debug
+com.example.giphyapp-mergeDebugResources-9 /Users/ansh/AnshProjects/Giphy-App/build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir
+com.example.giphyapp-mergeDebugResources-10 /Users/ansh/AnshProjects/Giphy-App/build/app/intermediates/incremental/debug/mergeDebugResources/stripped.dir
+com.example.giphyapp-merged_res-11 /Users/ansh/AnshProjects/Giphy-App/build/app/intermediates/merged_res/debug
