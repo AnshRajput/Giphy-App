@@ -6,6 +6,7 @@ import 'package:giphyapp/data/repositories/giphy_repository.dart';
 
 class HomePageController extends GetxController {
   var isLoading = true.obs;
+  var isPaginationLoading = false.obs;
   var isSearching = false.obs;
   TextEditingController searchtextController = TextEditingController();
   var searchPageNo = 0.obs;
@@ -29,13 +30,18 @@ class HomePageController extends GetxController {
   }
 
   getTrendingpaginationData(pageNo) async {
+    isPaginationLoading.value = true;
+
     trendingPageNo.value = pageNo;
     GiphyTrendingModel data = await giphyRepository.getTrendingList(pageNo);
     giphyTrendingdata.value.data!.addAll(data.data!);
     giphyTrendingdata.refresh();
+    isPaginationLoading.value = false;
   }
 
   getSearchpaginationData(pageNo) async {
+    isPaginationLoading.value = true;
+
     searchPageNo.value = pageNo;
     GiphySearchModel data =
         await giphyRepository.getGiphyList(searchtextController.text, pageNo);
@@ -43,6 +49,7 @@ class HomePageController extends GetxController {
     giphySearchModelData.value.data!.addAll(data.data!);
 
     giphySearchModelData.refresh();
+    isPaginationLoading.value = false;
   }
 
   @override
